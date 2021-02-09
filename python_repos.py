@@ -34,6 +34,7 @@ print(f"Updated: {repo_dict['updated_at']}")
 print(f"Description: {repo_dict['description']}")
 """
 
+# Информация о каждом репозитории.
 print(f"Selected information about each repository:")
 for repo_dict in repo_dicts:
     print(f"\nName: {repo_dict['name']}")

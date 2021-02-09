@@ -1,6 +1,7 @@
 from operator import itemgetter
 import requests
 
+
 # Создание вызова API и сохранение ответа.
 url = 'https://hacker-news.firebaseio.com/v0/topstories.json'
 r = requests.get(url)
@@ -38,5 +39,3 @@ for submission_dict in submission_dicts:
     print(f"\nTitle: {submission_dict['title']}")
     print(f"Discussion link: {submission_dict['hn_link']}")
     print(f"Comments: {submission_dict['comments']}")
-
-
